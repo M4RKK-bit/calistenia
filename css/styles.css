@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 5;
+    background-color: #afafaf;
+}
+
+header {
+    background-color: #001c9b;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: center;
+    padding: 5;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer {
+    background-color: #4e0000;
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+p {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 20Spx; /* Aumenta o tamanho da fonte */
+}
+
+
+  
+  /* Centraliza o botão com um fundo e estilo básico */
+  button {
+    padding: 13px 20px;
+    font-size: 11px;
+    cursor: pointer;
+    background-color: #001c9b;
+    color: white;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  button:hover {
+    background-color: #001c9b;
+  }
+
+  /* Centraliza a imagem com margin */
+img {
+    display: block;          /* Faz a imagem se comportar como um bloco */
+    margin: 0 auto;          /* Centraliza horizontalmente */
+    max-width: 100%;         /* Garante que a imagem não ultrapasse o tamanho da tela */
+    height: auto;            /* Mantém a proporção da imagem */
+  }
+  
+  
